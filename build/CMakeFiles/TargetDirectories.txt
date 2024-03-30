@@ -1,3 +1,4 @@
-/Users/1realjay/VSCODE/Cmsc202 Project3/build/CMakeFiles/main.dir
+/Users/1realjay/VSCODE/Cmsc202 Project3/build/CMakeFiles/proj3.dir
+/Users/1realjay/VSCODE/Cmsc202 Project3/build/CMakeFiles/run.dir
 /Users/1realjay/VSCODE/Cmsc202 Project3/build/CMakeFiles/edit_cache.dir
 /Users/1realjay/VSCODE/Cmsc202 Project3/build/CMakeFiles/rebuild_cache.dir

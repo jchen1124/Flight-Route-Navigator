@@ -117,24 +117,37 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named main
+# Target rules for targets named proj3
 
 # Build rule for target.
-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main
-.PHONY : main
+proj3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 proj3
+.PHONY : proj3
 
 # fast build rule for target.
-main/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
-.PHONY : main/fast
+proj3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj3.dir/build.make CMakeFiles/proj3.dir/build
+.PHONY : proj3/fast
+
+#=============================================================================
+# Target rules for targets named run
+
+# Build rule for target.
+run: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 run
+.PHONY : run
+
+# fast build rule for target.
+run/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/build
+.PHONY : run/fast
 
 Airport.o: Airport.cpp.o
 .PHONY : Airport.o
 
 # target to build an object file
 Airport.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Airport.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj3.dir/build.make CMakeFiles/proj3.dir/Airport.cpp.o
 .PHONY : Airport.cpp.o
 
 Airport.i: Airport.cpp.i
@@ -142,7 +155,7 @@ Airport.i: Airport.cpp.i
 
 # target to preprocess a source file
 Airport.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Airport.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj3.dir/build.make CMakeFiles/proj3.dir/Airport.cpp.i
 .PHONY : Airport.cpp.i
 
 Airport.s: Airport.cpp.s
@@ -150,7 +163,7 @@ Airport.s: Airport.cpp.s
 
 # target to generate assembly for a file
 Airport.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Airport.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj3.dir/build.make CMakeFiles/proj3.dir/Airport.cpp.s
 .PHONY : Airport.cpp.s
 
 Navigator.o: Navigator.cpp.o
@@ -158,7 +171,7 @@ Navigator.o: Navigator.cpp.o
 
 # target to build an object file
 Navigator.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Navigator.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj3.dir/build.make CMakeFiles/proj3.dir/Navigator.cpp.o
 .PHONY : Navigator.cpp.o
 
 Navigator.i: Navigator.cpp.i
@@ -166,7 +179,7 @@ Navigator.i: Navigator.cpp.i
 
 # target to preprocess a source file
 Navigator.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Navigator.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj3.dir/build.make CMakeFiles/proj3.dir/Navigator.cpp.i
 .PHONY : Navigator.cpp.i
 
 Navigator.s: Navigator.cpp.s
@@ -174,7 +187,7 @@ Navigator.s: Navigator.cpp.s
 
 # target to generate assembly for a file
 Navigator.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Navigator.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj3.dir/build.make CMakeFiles/proj3.dir/Navigator.cpp.s
 .PHONY : Navigator.cpp.s
 
 Route.o: Route.cpp.o
@@ -182,7 +195,7 @@ Route.o: Route.cpp.o
 
 # target to build an object file
 Route.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Route.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj3.dir/build.make CMakeFiles/proj3.dir/Route.cpp.o
 .PHONY : Route.cpp.o
 
 Route.i: Route.cpp.i
@@ -190,7 +203,7 @@ Route.i: Route.cpp.i
 
 # target to preprocess a source file
 Route.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Route.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj3.dir/build.make CMakeFiles/proj3.dir/Route.cpp.i
 .PHONY : Route.cpp.i
 
 Route.s: Route.cpp.s
@@ -198,7 +211,7 @@ Route.s: Route.cpp.s
 
 # target to generate assembly for a file
 Route.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Route.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj3.dir/build.make CMakeFiles/proj3.dir/Route.cpp.s
 .PHONY : Route.cpp.s
 
 proj3.o: proj3.cpp.o
@@ -206,7 +219,7 @@ proj3.o: proj3.cpp.o
 
 # target to build an object file
 proj3.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/proj3.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj3.dir/build.make CMakeFiles/proj3.dir/proj3.cpp.o
 .PHONY : proj3.cpp.o
 
 proj3.i: proj3.cpp.i
@@ -214,7 +227,7 @@ proj3.i: proj3.cpp.i
 
 # target to preprocess a source file
 proj3.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/proj3.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj3.dir/build.make CMakeFiles/proj3.dir/proj3.cpp.i
 .PHONY : proj3.cpp.i
 
 proj3.s: proj3.cpp.s
@@ -222,7 +235,7 @@ proj3.s: proj3.cpp.s
 
 # target to generate assembly for a file
 proj3.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/proj3.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj3.dir/build.make CMakeFiles/proj3.dir/proj3.cpp.s
 .PHONY : proj3.cpp.s
 
 # Help Target
@@ -233,7 +246,8 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... main"
+	@echo "... run"
+	@echo "... proj3"
 	@echo "... Airport.o"
 	@echo "... Airport.i"
 	@echo "... Airport.s"

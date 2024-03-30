@@ -22,7 +22,7 @@ Airport::Airport(string code, string name, string city, string country, double n
 }
 
 Airport::~Airport(){
-
+    
 }
 
 string Airport::GetCode(){

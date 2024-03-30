@@ -1,26 +1,26 @@
 [
 {
   "directory": "/Users/1realjay/VSCODE/Cmsc202 Project3/build",
-  "command": "/usr/bin/clang++   -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -o CMakeFiles/main.dir/Airport.cpp.o -c \"/Users/1realjay/VSCODE/Cmsc202 Project3/Airport.cpp\"",
+  "command": "/usr/bin/clang++    -Wall -g -g -std=gnu++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -o CMakeFiles/proj3.dir/Airport.cpp.o -c \"/Users/1realjay/VSCODE/Cmsc202 Project3/Airport.cpp\"",
   "file": "/Users/1realjay/VSCODE/Cmsc202 Project3/Airport.cpp",
-  "output": "CMakeFiles/main.dir/Airport.cpp.o"
+  "output": "CMakeFiles/proj3.dir/Airport.cpp.o"
 },
 {
   "directory": "/Users/1realjay/VSCODE/Cmsc202 Project3/build",
-  "command": "/usr/bin/clang++   -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -o CMakeFiles/main.dir/Navigator.cpp.o -c \"/Users/1realjay/VSCODE/Cmsc202 Project3/Navigator.cpp\"",
+  "command": "/usr/bin/clang++    -Wall -g -g -std=gnu++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -o CMakeFiles/proj3.dir/Navigator.cpp.o -c \"/Users/1realjay/VSCODE/Cmsc202 Project3/Navigator.cpp\"",
   "file": "/Users/1realjay/VSCODE/Cmsc202 Project3/Navigator.cpp",
-  "output": "CMakeFiles/main.dir/Navigator.cpp.o"
+  "output": "CMakeFiles/proj3.dir/Navigator.cpp.o"
 },
 {
   "directory": "/Users/1realjay/VSCODE/Cmsc202 Project3/build",
-  "command": "/usr/bin/clang++   -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -o CMakeFiles/main.dir/Route.cpp.o -c \"/Users/1realjay/VSCODE/Cmsc202 Project3/Route.cpp\"",
+  "command": "/usr/bin/clang++    -Wall -g -g -std=gnu++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -o CMakeFiles/proj3.dir/Route.cpp.o -c \"/Users/1realjay/VSCODE/Cmsc202 Project3/Route.cpp\"",
   "file": "/Users/1realjay/VSCODE/Cmsc202 Project3/Route.cpp",
-  "output": "CMakeFiles/main.dir/Route.cpp.o"
+  "output": "CMakeFiles/proj3.dir/Route.cpp.o"
 },
 {
   "directory": "/Users/1realjay/VSCODE/Cmsc202 Project3/build",
-  "command": "/usr/bin/clang++   -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -o CMakeFiles/main.dir/proj3.cpp.o -c \"/Users/1realjay/VSCODE/Cmsc202 Project3/proj3.cpp\"",
+  "command": "/usr/bin/clang++    -Wall -g -g -std=gnu++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -o CMakeFiles/proj3.dir/proj3.cpp.o -c \"/Users/1realjay/VSCODE/Cmsc202 Project3/proj3.cpp\"",
   "file": "/Users/1realjay/VSCODE/Cmsc202 Project3/proj3.cpp",
-  "output": "CMakeFiles/main.dir/proj3.cpp.o"
+  "output": "CMakeFiles/proj3.dir/proj3.cpp.o"
 }
 ]

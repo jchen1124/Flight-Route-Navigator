@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = "/Users/1realjay/VSCODE/Cmsc202 Project3/build"
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/main.dir/all
+all: CMakeFiles/proj3.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,34 +71,61 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/main.dir/clean
+clean: CMakeFiles/proj3.dir/clean
+clean: CMakeFiles/run.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/main.dir
+# Target rules for target CMakeFiles/proj3.dir
 
 # All Build rule for target.
-CMakeFiles/main.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/1realjay/VSCODE/Cmsc202 Project3/build/CMakeFiles" --progress-num=1,2,3,4,5 "Built target main"
-.PHONY : CMakeFiles/main.dir/all
+CMakeFiles/proj3.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj3.dir/build.make CMakeFiles/proj3.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj3.dir/build.make CMakeFiles/proj3.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/1realjay/VSCODE/Cmsc202 Project3/build/CMakeFiles" --progress-num=1,2,3,4,5 "Built target proj3"
+.PHONY : CMakeFiles/proj3.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/main.dir/rule: cmake_check_build_system
+CMakeFiles/proj3.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/1realjay/VSCODE/Cmsc202 Project3/build/CMakeFiles" 5
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/main.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/proj3.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/1realjay/VSCODE/Cmsc202 Project3/build/CMakeFiles" 0
-.PHONY : CMakeFiles/main.dir/rule
+.PHONY : CMakeFiles/proj3.dir/rule
 
 # Convenience name for target.
-main: CMakeFiles/main.dir/rule
-.PHONY : main
+proj3: CMakeFiles/proj3.dir/rule
+.PHONY : proj3
 
 # clean rule for target.
-CMakeFiles/main.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/clean
-.PHONY : CMakeFiles/main.dir/clean
+CMakeFiles/proj3.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj3.dir/build.make CMakeFiles/proj3.dir/clean
+.PHONY : CMakeFiles/proj3.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/run.dir
+
+# All Build rule for target.
+CMakeFiles/run.dir/all: CMakeFiles/proj3.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/1realjay/VSCODE/Cmsc202 Project3/build/CMakeFiles" --progress-num= "Built target run"
+.PHONY : CMakeFiles/run.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/run.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/1realjay/VSCODE/Cmsc202 Project3/build/CMakeFiles" 5
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/run.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/1realjay/VSCODE/Cmsc202 Project3/build/CMakeFiles" 0
+.PHONY : CMakeFiles/run.dir/rule
+
+# Convenience name for target.
+run: CMakeFiles/run.dir/rule
+.PHONY : run
+
+# clean rule for target.
+CMakeFiles/run.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/clean
+.PHONY : CMakeFiles/run.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -41,37 +41,42 @@ void Route::InsertEnd(string code, string name, string city, string country, dou
     m_size++;
 }
 void Route::RemoveAirport(int airport){
+
+    // if(airport < 0 || airport >= m_size){
+    //     cout << "Invalid Input" << endl;
+    //     return;
+    // }
+
     Airport *prev = m_head;
     Airport *curr = m_head;
 
-    if(airport < 0 || airport > m_size){
-        cout << "Invalid Size" << endl;
-        return;
-    }
-
-    //If position is the first node
+    //If position is the first airport
     if(airport == 0){
-        Airport *temp = m_head->GetNext();
-        delete temp;
-        m_head = temp;
-        //m_head = m_head->GetNext();
-        
+        m_head = m_head->GetNext();
+        delete curr;
+        curr = nullptr;
+        if(m_size == 1){
+            m_tail = nullptr;
+        }
     }else{
-        for (int i = 0; i < airport - 1; i++){
+        // Traverse to the airport to be removed
+        for (int i = 0; i < airport; i++){
 
             prev = curr;
             curr = curr->GetNext();
         }
         prev->SetNext(curr->GetNext());
 
-        // If the last node is being removed
+        // If the last airport is being removed
         if (curr == m_tail){
             m_tail = prev;
         }
-        
+        delete curr;
     }
     m_size--;
-    delete curr;
+
+    m_name = UpdateName();
+    
 }
 
 string Route::GetName(){
@@ -79,12 +84,17 @@ string Route::GetName(){
 }
 
 string Route::UpdateName(){
-    if(m_head == nullptr || m_tail == nullptr){
+    if(m_head == nullptr || m_head->GetNext() == nullptr){
+        cout << "Route must have at least two airports" << endl;
         return "";
     }
     else{
-        return m_head->GetName() + "to" + m_tail->GetName();
+        string newName = m_head->GetName() + " to " + m_tail->GetName();
+        m_name = newName;
+        return m_name;
     }
+
+
 }
 
 int Route::GetSize(){
@@ -92,6 +102,11 @@ int Route::GetSize(){
 }
 
 void Route::ReverseRoute(){
+    if(m_head == nullptr || m_head->GetNext() == nullptr){
+        cout << "Route must have at least two airports" << endl;
+        return;
+    }
+
     Airport *curr = m_head;
     Airport *prev = nullptr;
     Airport *next = nullptr;
@@ -102,11 +117,13 @@ void Route::ReverseRoute(){
         prev = curr;
         curr = next;
     }
+    m_tail = m_head;
     m_head = prev;
 }
 
 Airport* Route::GetData(int index){
     if(index < 0 || index >= m_size){
+        cout << "Invalid index" << endl;
         return nullptr;
     }
     else{
@@ -122,9 +139,11 @@ Airport* Route::GetData(int index){
 
 void Route::DisplayRoute(){
     Airport* curr = m_head;
+    int count = 1;
 
     while(curr != nullptr){
-        cout << curr->GetName() << "," << curr->GetCity() << " (" << "N" << curr->GetNorth() << "W" << curr->GetWest() << ")" << endl;
+        cout << count << ". " << curr->GetName() << "," << curr->GetCity() << " (" << "N" << curr->GetNorth() << " " << "W" << curr->GetWest() << ")" << endl;
         curr = curr->GetNext();
+        count++;
     }
 }
