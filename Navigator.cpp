@@ -37,7 +37,7 @@ Navigator::Navigator(string filename){
 Navigator::~Navigator(){
 
 // Deallocate memory for airports
-for (int i = 0; i < m_airports.size(); i++)
+for (unsigned i = 0; i < m_airports.size(); i++)
 {
     delete m_airports[i];
 }
@@ -45,7 +45,7 @@ for (int i = 0; i < m_airports.size(); i++)
 m_airports.clear();
 
 // Deallocate memory for routes
-for (int i = 0; i < m_routes.size(); i++)
+for (unsigned int i = 0; i < m_routes.size(); i++)
 {
     delete m_routes[i];
 }
@@ -75,7 +75,7 @@ if (m_airports.size() == 0) {
     }
 
     cout << "List of Airports:" << endl;
-    for (int i = 0; i < m_airports.size(); i++)
+    for (unsigned int i = 0; i < m_airports.size(); i++)
     {
         cout << i+1 << ". " << m_airports[i]->GetName() << ", " << m_airports[i]->GetCity() << endl;
     }
@@ -154,7 +154,7 @@ void Navigator::InsertNewRoute(){
             }
         }
         
-        else if(input > 0 && input <= m_airports.size()){
+        else if(input > 0 && input <= (int)m_airports.size()){
             input--; //Adjust input for vector index
             count++;
 
@@ -226,7 +226,7 @@ do {
 
     cin >> choice;
 
-} while(choice < 1 || choice > m_routes.size());
+} while((int)choice < 1 || (int)choice > (int)m_routes.size());
 
 
 
@@ -252,7 +252,7 @@ int choice = ChooseRoute();
 // Display the selected route and its total miles
 cout << m_routes[choice]->UpdateName() << endl;
 
-if(choice >= 0 && choice < m_routes.size()){
+if(choice >= 0 && (int)choice < (int)m_routes.size()){
     Route* selectedRoute = m_routes[choice];
     selectedRoute->DisplayRoute();
 
