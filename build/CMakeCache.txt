@@ -213,6 +213,15 @@ CMAKE_TAPI:FILEPATH=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeD
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Value Computed by CMake
+Project_BINARY_DIR:STATIC=/Users/1realjay/VSCODE/Cmsc202 Project3/build
+
+//Value Computed by CMake
+Project_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+Project_SOURCE_DIR:STATIC=/Users/1realjay/VSCODE/Cmsc202 Project3
+
+//Value Computed by CMake
 cpp_boilerplate_BINARY_DIR:STATIC=/Users/1realjay/VSCODE/Cmsc202 Project3/build
 
 //Value Computed by CMake
