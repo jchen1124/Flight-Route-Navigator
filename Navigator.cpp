@@ -37,7 +37,7 @@ Navigator::Navigator(string filename){
 Navigator::~Navigator(){
 
 // Deallocate memory for airports
-for (unsigned i = 0; i < m_airports.size(); i++)
+for (unsigned int i = 0; i < m_airports.size(); i++)
 {
     delete m_airports[i];
 }
@@ -99,7 +99,7 @@ if(!file.is_open()){
 }else{
 cout << "Opened File" << endl;
 cout << "Airports loaded: 40" << endl;
-string code, name, city, country, temp;
+string code, name, city, country, s_north, s_west;
 double north, west;
 
 string line;
@@ -109,11 +109,11 @@ while(getline(file, code, ',') &&
       getline(file, name, ',') &&
       getline(file, city, ',') &&
       getline(file, country, ',') &&
-      getline(file, temp, ',') && // Reads in North
-      getline(file, temp)) { // Reads in West
+      getline(file, s_north, ',') && // Reads in North
+      getline(file, s_west)) { // Reads in West
 
-        north = stod(temp); //Covert string to double for north
-        west = stod(temp); //Covert string to double for west
+        north = stod(s_north); //Covert string to double for north
+        west = stod(s_west); //Covert string to double for west
 
         // Dynamicaly allocate Airport object and add to m_airport
         Airport* airport = new Airport(code, name, city, country, north, west);
@@ -154,7 +154,7 @@ void Navigator::InsertNewRoute(){
                 cout << "You must have atleast 2 airports" << endl;
             }else{
                 exitloop = true;
-            }
+            } 
         }
         
         else if(input > 0 && input <= (int)m_airports.size()){
@@ -224,13 +224,12 @@ int Navigator::ChooseRoute(){
 
 do {
     cout << "Which route would you like to use?" << endl;
-    cout << ">> ";
     //Display numbered lists of routes
     for (unsigned int i = 0; i < m_routes.size(); i++){
     string routeName = m_routes[i]->UpdateName(); 
     cout << i+1 << ". " << routeName << endl;
     }
-
+    cout << ">> ";
     cin >> choice;
 
 } while((int)choice < 1 || (int)choice > (int)m_routes.size());
@@ -264,7 +263,7 @@ if(choice >= 0 && (int)choice < (int)m_routes.size()){
     selectedRoute->DisplayRoute();
 
     double distance = RouteDistance(selectedRoute);
-    cout << "The total miles of this route is " << distance << "miles" << endl;
+    cout << "The total miles of this route is " << distance << " miles" << endl;
 }else{
     cout << "Invalid Route" << endl;
 }
@@ -328,7 +327,7 @@ while(!exitloop){
 }
 
 
- // Name: ReverseRoute                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+// Name: ReverseRoute                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
 // Desc: Using ChooseRoute, users chooses route and the route is reversed                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
 //   If no routes in m_routes, indicates no routes available to reverse                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
 //   Updates route name using UpdateName                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
@@ -361,18 +360,22 @@ cout << "Done Reversing " << updateName << endl;
 //    Aggregates the total and returns the total in miles                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
 // Preconditions: Populated route with more than one airport                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
 // Postconditions: Returns the total miles between all airports in a route 
-double Navigator::RouteDistance(Route*){
-// double totalDistance = 0.0;
-// for (int i = 0; i < m_airports.size(); i++)
-// {
-//     Airport* currentAirport = m_airports[i];
-//     Airport* nextAirport = m_airports[i + 1];
+double Navigator::RouteDistance(Route* routes){
+    double totalDistance = 0.0;
+    unsigned int numAirports = routes->GetSize();
 
-//     double distance = CalcDistance(currentAirport->GetNorth(), currentAirport->GetWest(), nextAirport->GetNorth(), nextAirport->GetWest());
-//     totalDistance += distance;
-// }
+    Airport* currentAirport = routes->GetData(0);
+    Airport* nextAirport = nullptr;
 
-// return totalDistance;
-return 0;
+    for (int i = 1; i < numAirports; i++){
+    nextAirport = routes->GetData(i);
+
+    double distance = CalcDistance(currentAirport->GetNorth(), currentAirport->GetWest(), nextAirport->GetNorth(), nextAirport->GetWest());
+    totalDistance += distance;
+    currentAirport = nextAirport;
+    }
+
+    return totalDistance;
+    //return 0;
 }
 

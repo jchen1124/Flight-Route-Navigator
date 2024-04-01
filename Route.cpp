@@ -218,7 +218,7 @@ void Route::DisplayRoute(){
 
     // Traverse the linked list and display information for each airport
     while(curr != nullptr){
-        cout << count << ". " << curr->GetCode() << ", " << curr->GetName() << ", " << curr->GetCity() << " (" << "N" << curr->GetNorth() << " " << "W" << curr->GetWest() << ")" << endl;
+        cout << count << ". " << curr->GetCode() << ", " << curr->GetName() << ", " << curr->GetCity() << ", " << curr->GetCountry() << " (" << "N" << curr->GetNorth() << " " << "W" << curr->GetWest() << ")" << endl;
         curr = curr->GetNext();
         count++;
     }
