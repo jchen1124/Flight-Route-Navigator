@@ -369,7 +369,7 @@ double Navigator::RouteDistance(Route* routes){
     Airport* nextAirport = nullptr;
 
     // Goes through the airports starting with the second one
-    for (int i = 1; i < numAirports; i++){
+    for (unsigned int i = 1; i < numAirports; i++){
         nextAirport = routes->GetData(i);
 
         double distance = CalcDistance(currentAirport->GetNorth(), currentAirport->GetWest(), nextAirport->GetNorth(), nextAirport->GetWest());
