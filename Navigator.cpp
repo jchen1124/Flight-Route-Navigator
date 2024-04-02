@@ -1,16 +1,14 @@
 /*****************************************
-** File:    Airport.cpp
+** File:    Navigator.cpp
 ** Project: CMSC 202 Project 3, Spring 2024
 ** Author:  Jason Chen
 ** Date:    4/2/24
 ** Section: 10/13
 ** E-mail:  jchen33@gl.umbc.edu 
 **
-** This file implements the functionalities of an Airport class. 
-** It defines constructors, destructors, and accessor methods to 
-** manage airport data such as airport code, name, city, country, 
-** and coordinates. Additionally, it includes a method 
-** to set the next airport in a linked list structure.
+** This file implements the functionalities of an Navigator class. 
+** It includes function to read in the data of each airport. Displays the main menu
+** to create new routes, display routes, remove airports, and reverse routes.
 ** 
 ***********************************************/
 
@@ -74,6 +72,7 @@ if (m_airports.size() == 0) {
         return;
     }
 
+    // Iterates through airport vector and prints 
     cout << "List of Airports:" << endl;
     for (unsigned int i = 0; i < m_airports.size(); i++)
     {
@@ -166,12 +165,13 @@ void Navigator::InsertNewRoute(){
             newRoute->InsertEnd(selectedAirport->GetCode(), selectedAirport->GetName(), selectedAirport->GetCity(), selectedAirport->GetCountry(), selectedAirport->GetNorth(), selectedAirport->GetWest());
         
         }else{
-            cout << "Invalid Number" << endl;
+            cout << "Invalid Number - Try Again" << endl;
         }
         
     }
+        // Adds the selected airports to m_routes vector
         m_routes.push_back(newRoute);
-        cout << "Done Building a route named:: " << newRoute->UpdateName() << endl;
+        cout << "Done Building a route named " << newRoute->UpdateName() << endl;
 }
 
 // Name: MainMenu                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
@@ -315,7 +315,7 @@ while(!exitloop){
     if(airportToRemove <= 0 || airportToRemove > selectedRoute->GetSize()){
         cout << "Invalid Input" << endl;
     }else{
-        cout << "Selected Route: " << selectedRoute->GetName() << endl;
+        cout << selectedRoute->GetName() << endl;
         selectedRoute->RemoveAirport(airportToRemove-1); //Removes airport
         selectedRoute->DisplayRoute();
         string update = selectedRoute->UpdateName();
@@ -364,18 +364,23 @@ double Navigator::RouteDistance(Route* routes){
     double totalDistance = 0.0;
     unsigned int numAirports = routes->GetSize();
 
+    // Gets Data of the first airport
     Airport* currentAirport = routes->GetData(0);
     Airport* nextAirport = nullptr;
 
-    for (unsigned int i = 1; i < numAirports; i++){
-    nextAirport = routes->GetData(i);
+    // Goes through the airports starting with the second one
+    for (int i = 1; i < numAirports; i++){
+        nextAirport = routes->GetData(i);
 
-    double distance = CalcDistance(currentAirport->GetNorth(), currentAirport->GetWest(), nextAirport->GetNorth(), nextAirport->GetWest());
-    totalDistance += distance;
-    currentAirport = nextAirport;
+        double distance = CalcDistance(currentAirport->GetNorth(), currentAirport->GetWest(), nextAirport->GetNorth(), nextAirport->GetWest());
+        totalDistance += distance;
+
+        // Update the current airport to the next airport for the next iteration
+        currentAirport = nextAirport;
+        
     }
 
     return totalDistance;
-    //return 0;
+    
 }
 
