@@ -110,6 +110,7 @@ while(getline(file, code, ',') &&
       getline(file, country, ',') &&
       getline(file, s_north, ',') && // Reads in North
       getline(file, s_west)) { // Reads in West
+      cout << code << name << city << country << s_north << s_west << endl;
 
         north = stod(s_north); //Covert string to double for north
         west = stod(s_west); //Covert string to double for west

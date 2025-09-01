@@ -1,267 +1,1665 @@
+Loading files: proj4_items.txt and proj4_planets.txt
 
-***Navigator***
+Welcome to Super Space Exploration!
+112 planets loaded.
+85 items loaded
+Ship Name: Ibreon XII(gas) Challenge: 1
 
-Opened File
-Airports loaded: 40
-What would you like to do?:
-1. Create New Route
-2. Display Route
-3. Remove Airport From Route
-4. Reverse Route
-5. Exit
-2
-No routes to display
-What would you like to do?:
-1. Create New Route
-2. Display Route
-3. Remove Airport From Route
-4. Reverse Route
-5. Exit
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
 3
-No routes to remove airports
-What would you like to do?:
-1. Create New Route
-2. Display Route
-3. Remove Airport From Route
-4. Reverse Route
-5. Exit
+Battle Commencing!
+Your planetary bombardment worked. You won!
+Your fuel has been modified by 20 fuel
+You have found: AUG-4C reactor component(engine) 1
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+1
+1. ->ENGINE-> Basic engine(1)
+2. |ARMOR| Basic armor(1)
+3. **WEAPON** Basic weapon(1)
+4. ->ENGINE-> AUG-4C reactor component(1)
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
 4
-No routes to reverse
-What would you like to do?:
-1. Create New Route
-2. Display Route
-3. Remove Airport From Route
-4. Reverse Route
-5. Exit
-1
-1. SCHIPHOL, AMSTERDAM
-2. THE WILLIAM B HARTSFIELD ATLANTA INTERNATIONAL, ATLANTA
-3. BARCELONA, BARCELONA
-4. BANGKOK INTERNATIONAL, BANGKOK
-5. BANGALORE, BANGALORE
-6. CHHATRAPATI SHIVAJI INTERNATIONAL, BOMBAY
-7. GENERAL EDWARD LAWRENCE LOGAN INTERNATIONAL, BOSTON
-8. BALTIMORE WASHINGTON INTERNATIONAL, BALTIMORE
-9. CHARLES DE GAULLE, PARIS
-10. CANCUN INTERNATIONAL, CANCUN
-11. DALLAS LOVE FLD, DALLAS
-12. INDIRA GANDHI INTERNATIONAL, DELHI
-13. KING FAHD INTERNATIONAL, DAMMAM
-14. DOHA INTERNATIONAL, DOHA
-15. DUBAI INTERNATIONAL, DUBAI
-16. NEWARK LIBERTY INTERNATIONAL, NEWARK
-17. FIUMICINO, ROME
-18. FRANKFURT MAIN, FRANKFURT
-19. GRAND CENTRAL, JOHANNESBURG
-20. GENEVA COINTRIN, GENEVA
-21. HONG KONG INTERNATIONAL, HONG KONG
-22. GEORGE BUSH INTCNTL HOUSTON, HOUSTON
-23. ATATURK, ISTANBUL
-24. JOHN F KENNEDY INTERNATIONAL, NEW YORK
-25. KUALA LUMPUR INTERNATIONAL, KUALA LUMPUR
-26. LOS ANGELES INTERNATIONAL, LOS ANGELES
-27. HEATHROW, LONDON
-28. LICENCIADO BENITO JUAREZ INTERNATIONAL, MEXICO CITY
-29. MIAMI INTERNATIONAL, MIAMI
-30. MUNICH, MUNICH
-31. NEW TOKYO INTERNATIONAL, TOKYO
-32. CHICAGO OHARE INTERNATIONAL, CHICAGO
-33. CAPITAL, BEIJING
-34. PHOENIX SKY HARBOR INTERNATIONAL, PHOENIX
-35. SANTOS DUMONT, RIO DE JANEIRO
-36. SAN FRANCISCO INTERNATIONAL, SAN FRANCISCO
-37. HONGQIAO INTERNATIONAL, SHANGHAI
-38. SINGAPORE CHANGI, SINGAPORE
-39. KINGSFORD SMITH INTERNATIONAL AIRPORT, SYDNEY
-40. CHIANG KAI SHEK INTERNATIONAL, TAIPEI
-Enter the number of the airport to add to your Route: (-1 to end)
-1
-Enter the number of the airport to add to your Route: (-1 to end)
-2
-Enter the number of the airport to add to your Route: (-1 to end)
-3
-Enter the number of the airport to add to your Route: (-1 to end)
-4
-Enter the number of the airport to add to your Route: (-1 to end)
-0
-Invalid airport number - Try again
-Enter the number of the airport to add to your Route: (-1 to end)
--1
-Done Building a New Route named AMSTERDAM to BANGKOK
-What would you like to do?:
-1. Create New Route
-2. Display Route
-3. Remove Airport From Route
-4. Reverse Route
-5. Exit
-2
-Which route would you like to use?
-1. AMSTERDAM to BANGKOK
-0
-Which route would you like to use?
-1. AMSTERDAM to BANGKOK
-1
-AMSTERDAM to BANGKOK
-1. AMS, SCHIPHOL, AMSTERDAM, NETHERLANDS (N52.309 W4.764)
-2. ATL, THE WILLIAM B HARTSFIELD ATLANTA INTERNATIONAL, ATLANTA, USA (N33.64 W-84.427)
-3. BCN, BARCELONA, BARCELONA, SPAIN (N41.297 W2.078)
-4. BKK, BANGKOK INTERNATIONAL, BANGKOK, THAILAND (N13.912 W100.607)
-The total miles of this route is 14981.9 miles
-What would you like to do?:
-1. Create New Route
-2. Display Route
-3. Remove Airport From Route
-4. Reverse Route
-5. Exit
-3
-Which route would you like to use?
-1. AMSTERDAM to BANGKOK
-1
-AMSTERDAM to BANGKOK
-1. AMS, SCHIPHOL, AMSTERDAM, NETHERLANDS (N52.309 W4.764)
-2. ATL, THE WILLIAM B HARTSFIELD ATLANTA INTERNATIONAL, ATLANTA, USA (N33.64 W-84.427)
-3. BCN, BARCELONA, BARCELONA, SPAIN (N41.297 W2.078)
-4. BKK, BANGKOK INTERNATIONAL, BANGKOK, THAILAND (N13.912 W100.607)
-Which airport would you like to remove?
-1
-AMSTERDAM to BANGKOK
-1. ATL, THE WILLIAM B HARTSFIELD ATLANTA INTERNATIONAL, ATLANTA, USA (N33.64 W-84.427)
-2. BCN, BARCELONA, BARCELONA, SPAIN (N41.297 W2.078)
-3. BKK, BANGKOK INTERNATIONAL, BANGKOK, THAILAND (N13.912 W100.607)
-Route named ATLANTA to BANGKOK updated
-What would you like to do?:
-1. Create New Route
-2. Display Route
-3. Remove Airport From Route
-4. Reverse Route
-5. Exit
-2
-Which route would you like to use?
-1. ATLANTA to BANGKOK
-1
-ATLANTA to BANGKOK
-1. ATL, THE WILLIAM B HARTSFIELD ATLANTA INTERNATIONAL, ATLANTA, USA (N33.64 W-84.427)
-2. BCN, BARCELONA, BARCELONA, SPAIN (N41.297 W2.078)
-3. BKK, BANGKOK INTERNATIONAL, BANGKOK, THAILAND (N13.912 W100.607)
-The total miles of this route is 10591.6 miles
-What would you like to do?:
-1. Create New Route
-2. Display Route
-3. Remove Airport From Route
-4. Reverse Route
-5. Exit
-4
-Which route would you like to use?
-1. ATLANTA to BANGKOK
-1
-Done reversing Route BANGKOK to ATLANTA
-What would you like to do?:
-1. Create New Route
-2. Display Route
-3. Remove Airport From Route
-4. Reverse Route
-5. Exit
-2
-Which route would you like to use?
-1. BANGKOK to ATLANTA
-1
-BANGKOK to ATLANTA
-1. BKK, BANGKOK INTERNATIONAL, BANGKOK, THAILAND (N13.912 W100.607)
-2. BCN, BARCELONA, BARCELONA, SPAIN (N41.297 W2.078)
-3. ATL, THE WILLIAM B HARTSFIELD ATLANTA INTERNATIONAL, ATLANTA, USA (N33.64 W-84.427)
-The total miles of this route is 10591.6 miles
-What would you like to do?:
-1. Create New Route
-2. Display Route
-3. Remove Airport From Route
-4. Reverse Route
-5. Exit
-1
-1. SCHIPHOL, AMSTERDAM
-2. THE WILLIAM B HARTSFIELD ATLANTA INTERNATIONAL, ATLANTA
-3. BARCELONA, BARCELONA
-4. BANGKOK INTERNATIONAL, BANGKOK
-5. BANGALORE, BANGALORE
-6. CHHATRAPATI SHIVAJI INTERNATIONAL, BOMBAY
-7. GENERAL EDWARD LAWRENCE LOGAN INTERNATIONAL, BOSTON
-8. BALTIMORE WASHINGTON INTERNATIONAL, BALTIMORE
-9. CHARLES DE GAULLE, PARIS
-10. CANCUN INTERNATIONAL, CANCUN
-11. DALLAS LOVE FLD, DALLAS
-12. INDIRA GANDHI INTERNATIONAL, DELHI
-13. KING FAHD INTERNATIONAL, DAMMAM
-14. DOHA INTERNATIONAL, DOHA
-15. DUBAI INTERNATIONAL, DUBAI
-16. NEWARK LIBERTY INTERNATIONAL, NEWARK
-17. FIUMICINO, ROME
-18. FRANKFURT MAIN, FRANKFURT
-19. GRAND CENTRAL, JOHANNESBURG
-20. GENEVA COINTRIN, GENEVA
-21. HONG KONG INTERNATIONAL, HONG KONG
-22. GEORGE BUSH INTCNTL HOUSTON, HOUSTON
-23. ATATURK, ISTANBUL
-24. JOHN F KENNEDY INTERNATIONAL, NEW YORK
-25. KUALA LUMPUR INTERNATIONAL, KUALA LUMPUR
-26. LOS ANGELES INTERNATIONAL, LOS ANGELES
-27. HEATHROW, LONDON
-28. LICENCIADO BENITO JUAREZ INTERNATIONAL, MEXICO CITY
-29. MIAMI INTERNATIONAL, MIAMI
-30. MUNICH, MUNICH
-31. NEW TOKYO INTERNATIONAL, TOKYO
-32. CHICAGO OHARE INTERNATIONAL, CHICAGO
-33. CAPITAL, BEIJING
-34. PHOENIX SKY HARBOR INTERNATIONAL, PHOENIX
-35. SANTOS DUMONT, RIO DE JANEIRO
-36. SAN FRANCISCO INTERNATIONAL, SAN FRANCISCO
-37. HONGQIAO INTERNATIONAL, SHANGHAI
-38. SINGAPORE CHANGI, SINGAPORE
-39. KINGSFORD SMITH INTERNATIONAL AIRPORT, SYDNEY
-40. CHIANG KAI SHEK INTERNATIONAL, TAIPEI
-Enter the number of the airport to add to your Route: (-1 to end)
-41
-Invalid airport number - Try again
-Enter the number of the airport to add to your Route: (-1 to end)
-40
-Enter the number of the airport to add to your Route: (-1 to end)
-39
-Enter the number of the airport to add to your Route: (-1 to end)
--1
-Done Building a New Route named TAIPEI to SYDNEY
-What would you like to do?:
-1. Create New Route
-2. Display Route
-3. Remove Airport From Route
-4. Reverse Route
-5. Exit
-2
-Which route would you like to use?
-1. BANGKOK to ATLANTA
-2. TAIPEI to SYDNEY
-2
-TAIPEI to SYDNEY
-1. TPE, CHIANG KAI SHEK INTERNATIONAL, TAIPEI, TAIWAN (N25.08 W121.232)
-2. SYD, KINGSFORD SMITH INTERNATIONAL AIRPORT, SYDNEY, AUSTRALIA (N-33.946 W151.177)
-The total miles of this route is 4527.17 miles
-What would you like to do?:
-1. Create New Route
-2. Display Route
-3. Remove Airport From Route
-4. Reverse Route
-5. Exit
-3
-Which route would you like to use?
-1. BANGKOK to ATLANTA
-2. TAIPEI to SYDNEY
-2
-Route cannot have less than two airports.
-What would you like to do?:
-1. Create New Route
-2. Display Route
-3. Remove Airport From Route
-4. Reverse Route
-5. Exit
+You are not prepared to try to travel to Utopia yet.
+Perhaps develop your engines more?
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
 5
-Routes removed from memory
-Deleting Airports
-Deleting Routes
+**************************
+Name: Red Dwarf
+Fuel: 120
+Attack: 1
+Defense: 1
+Engine: 2
+*************************
+1. ->ENGINE-> Basic engine(1)
+2. |ARMOR| Basic armor(1)
+3. **WEAPON** Basic weapon(1)
+4. ->ENGINE-> AUG-4C reactor component(1)
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+3
+This planet has already been defeated.
+You should move to a new planet.
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+2
+You travel to the next planet.
+Akippe(gas) Challenge: 1
 
+Your fuel has been modified by -5 fuel
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+3
+Battle Commencing!
+Your planetary bombardment worked. You won!
+Your fuel has been modified by 20 fuel
+You have found: Beam focuser(engine) 1
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+2
+You travel to the next planet.
+Ondion(enemy) Challenge: 3
+
+Your fuel has been modified by -5 fuel
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+3
+Battle Commencing!
+Your fuel has been modified by 3 fuel
+You attacked but didn't win the battle.
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+2
+You travel to the next planet.
+Merth(gas) Challenge: 5
+
+Your fuel has been modified by -5 fuel
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+2
+You travel to the next planet.
+Denkerth(gas) Challenge: 2
+
+Your fuel has been modified by -5 fuel
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+3
+Battle Commencing!
+Your planetary bombardment worked. You won!
+Your fuel has been modified by 20 fuel
+You have found: J-14(armor) 2
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+2
+You travel to the next planet.
+Riagantu(enemy) Challenge: 2
+
+Your fuel has been modified by -5 fuel
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+3
+Battle Commencing!
+Your planetary bombardment worked. You won!
+Your fuel has been modified by 20 fuel
+You have found: NK-3 medium ion cannon(weapon) 2
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+2
+You travel to the next planet.
+Magua(gas) Challenge: 5
+
+Your fuel has been modified by -5 fuel
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+2
+You travel to the next planet.
+Esomia(mining) Challenge: 1
+
+Your fuel has been modified by -5 fuel
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+3
+Battle Commencing!
+Your planetary bombardment worked. You won!
+Your fuel has been modified by 20 fuel
+You have found: Beamrail Gauss Cannon(weapon) 1
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+2
+You travel to the next planet.
+Kegawa(mining) Challenge: 4
+
+Your fuel has been modified by -5 fuel
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+2
+You travel to the next planet.
+Iketer(mining) Challenge: 3
+
+Your fuel has been modified by -5 fuel
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+3
+Battle Commencing!
+Your planetary bombardment worked. You won!
+Your fuel has been modified by 20 fuel
+You have found: Flak gun(weapon) 3
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+2
+You travel to the next planet.
+Dricarro(mining) Challenge: 5
+
+Your fuel has been modified by -5 fuel
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+3
+Battle Commencing!
+Your planetary bombardment worked. You won!
+Your fuel has been modified by 60 fuel
+You have found: Crystal oscillator(engine) 5
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+2
+You travel to the next planet.
+Iroria 7X(enemy) Challenge: 4
+
+Your fuel has been modified by -5 fuel
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+3
+Battle Commencing!
+Your planetary bombardment worked. You won!
+Your fuel has been modified by 40 fuel
+You have found: Fotia's Fire launcher(weapon) 4
+Which item would you like to replace?
+1. ->ENGINE-> Basic engine(1)
+2. |ARMOR| Basic armor(1)
+3. **WEAPON** Basic weapon(1)
+4. ->ENGINE-> AUG-4C reactor component(1)
+5. ->ENGINE-> Beam focuser(1)
+6. |ARMOR| J-14(2)
+7. **WEAPON** NK-3 medium ion cannon(2)
+8. **WEAPON** Beamrail Gauss Cannon(1)
+9. **WEAPON** Flak gun(3)
+10. ->ENGINE-> Crystal oscillator(5)
+8
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+2
+You travel to the next planet.
+Denides(mining) Challenge: 2
+
+Your fuel has been modified by -5 fuel
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+3
+Battle Commencing!
+Your planetary bombardment worked. You won!
+Your fuel has been modified by 40 fuel
+You have found: Long gun(weapon) 2
+Which item would you like to replace?
+1. ->ENGINE-> Basic engine(1)
+2. |ARMOR| Basic armor(1)
+3. **WEAPON** Basic weapon(1)
+4. ->ENGINE-> AUG-4C reactor component(1)
+5. ->ENGINE-> Beam focuser(1)
+6. |ARMOR| J-14(2)
+7. **WEAPON** NK-3 medium ion cannon(2)
+8. **WEAPON** Fotia's Fire launcher(4)
+9. **WEAPON** Flak gun(3)
+10. ->ENGINE-> Crystal oscillator(5)
+3
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+2
+You travel to the next planet.
+Purilia(enemy) Challenge: 5
+
+Your fuel has been modified by -5 fuel
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+3
+Battle Commencing!
+Your planetary bombardment worked. You won!
+Your fuel has been modified by 60 fuel
+You have found: XF-16 power generator(engine) 5
+Which item would you like to replace?
+1. ->ENGINE-> Basic engine(1)
+2. |ARMOR| Basic armor(1)
+3. **WEAPON** Long gun(2)
+4. ->ENGINE-> AUG-4C reactor component(1)
+5. ->ENGINE-> Beam focuser(1)
+6. |ARMOR| J-14(2)
+7. **WEAPON** NK-3 medium ion cannon(2)
+8. **WEAPON** Fotia's Fire launcher(4)
+9. **WEAPON** Flak gun(3)
+10. ->ENGINE-> Crystal oscillator(5)
+1
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+2
+You travel to the next planet.
+Brolnaistea 2OA(gas) Challenge: 3
+
+Your fuel has been modified by -5 fuel
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+3
+Battle Commencing!
+Your planetary bombardment worked. You won!
+Your fuel has been modified by 40 fuel
+You have found: Power conduit(engine) 3
+Which item would you like to replace?
+1. ->ENGINE-> XF-16 power generator(5)
+2. |ARMOR| Basic armor(1)
+3. **WEAPON** Long gun(2)
+4. ->ENGINE-> AUG-4C reactor component(1)
+5. ->ENGINE-> Beam focuser(1)
+6. |ARMOR| J-14(2)
+7. **WEAPON** NK-3 medium ion cannon(2)
+8. **WEAPON** Fotia's Fire launcher(4)
+9. **WEAPON** Flak gun(3)
+10. ->ENGINE-> Crystal oscillator(5)
+2
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+2
+You travel to the next planet.
+Drethuhiri 73W(enemy) Challenge: 1
+
+Your fuel has been modified by -5 fuel
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+2
+You travel to the next planet.
+Cethea(enemy) Challenge: 5
+
+Your fuel has been modified by -5 fuel
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+3
+Battle Commencing!
+Your planetary bombardment worked. You won!
+Your fuel has been modified by 20 fuel
+You have found: Power Surge Loop(engine) 5
+Which item would you like to replace?
+1. ->ENGINE-> XF-16 power generator(5)
+2. ->ENGINE-> Power conduit(3)
+3. **WEAPON** Long gun(2)
+4. ->ENGINE-> AUG-4C reactor component(1)
+5. ->ENGINE-> Beam focuser(1)
+6. |ARMOR| J-14(2)
+7. **WEAPON** NK-3 medium ion cannon(2)
+8. **WEAPON** Fotia's Fire launcher(4)
+9. **WEAPON** Flak gun(3)
+10. ->ENGINE-> Crystal oscillator(5)
+4
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+2
+You travel to the next planet.
+Boxora(mining) Challenge: 3
+
+Your fuel has been modified by -5 fuel
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+3
+Battle Commencing!
+Your planetary bombardment worked. You won!
+Your fuel has been modified by 40 fuel
+You have found: Incinerator-class plasma railgun(weapon) 3
+Which item would you like to replace?
+1. ->ENGINE-> XF-16 power generator(5)
+2. ->ENGINE-> Power conduit(3)
+3. **WEAPON** Long gun(2)
+4. ->ENGINE-> Power Surge Loop(5)
+5. ->ENGINE-> Beam focuser(1)
+6. |ARMOR| J-14(2)
+7. **WEAPON** NK-3 medium ion cannon(2)
+8. **WEAPON** Fotia's Fire launcher(4)
+9. **WEAPON** Flak gun(3)
+10. ->ENGINE-> Crystal oscillator(5)
+3
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+2
+You travel to the next planet.
+Ixippe(enemy) Challenge: 2
+
+Your fuel has been modified by -5 fuel
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+2
+You travel to the next planet.
+Ondion(enemy) Challenge: 3
+
+Your fuel has been modified by -5 fuel
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+2
+You travel to the next planet.
+Xiliv(gas) Challenge: 4
+
+Your fuel has been modified by -5 fuel
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+2
+You travel to the next planet.
+Akippe(gas) Challenge: 1
+
+Your fuel has been modified by -5 fuel
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+2
+You travel to the next planet.
+Amides(enemy) Challenge: 3
+
+Your fuel has been modified by -5 fuel
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+2
+You travel to the next planet.
+Thulnyke(gas) Challenge: 1
+
+Your fuel has been modified by -5 fuel
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+2
+You travel to the next planet.
+Boxora(mining) Challenge: 3
+
+Your fuel has been modified by -5 fuel
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+2
+You travel to the next planet.
+Itania(mining) Challenge: 4
+
+Your fuel has been modified by -5 fuel
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+2
+You travel to the next planet.
+Gnulmoturn(gas) Challenge: 4
+
+Your fuel has been modified by -5 fuel
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+2
+You travel to the next planet.
+Nelore(enemy) Challenge: 5
+
+Your fuel has been modified by -5 fuel
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+3
+Battle Commencing!
+Your planetary bombardment worked. You won!
+Your fuel has been modified by 20 fuel
+You have found: Power relay inverter(engine) 5
+Which item would you like to replace?
+1. ->ENGINE-> XF-16 power generator(5)
+2. ->ENGINE-> Power conduit(3)
+3. **WEAPON** Incinerator-class plasma railgun(3)
+4. ->ENGINE-> Power Surge Loop(5)
+5. ->ENGINE-> Beam focuser(1)
+6. |ARMOR| J-14(2)
+7. **WEAPON** NK-3 medium ion cannon(2)
+8. **WEAPON** Fotia's Fire launcher(4)
+9. **WEAPON** Flak gun(3)
+10. ->ENGINE-> Crystal oscillator(5)
+7
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+2
+You travel to the next planet.
+Denkerth(gas) Challenge: 2
+
+Your fuel has been modified by -5 fuel
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+3
+This planet has already been defeated.
+You should move to a new planet.
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+2
+You travel to the next planet.
+Nelore(enemy) Challenge: 5
+
+Your fuel has been modified by -5 fuel
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+3
+This planet has already been defeated.
+You should move to a new planet.
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+2
+You travel to the next planet.
+Kuriuq(gas) Challenge: 2
+
+Your fuel has been modified by -5 fuel
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+3
+Battle Commencing!
+Your planetary bombardment worked. You won!
+Your fuel has been modified by 20 fuel
+You have found: Drill-spike(weapon) 2
+Which item would you like to replace?
+1. ->ENGINE-> XF-16 power generator(5)
+2. ->ENGINE-> Power conduit(3)
+3. **WEAPON** Incinerator-class plasma railgun(3)
+4. ->ENGINE-> Power Surge Loop(5)
+5. ->ENGINE-> Beam focuser(1)
+6. |ARMOR| J-14(2)
+7. ->ENGINE-> Power relay inverter(5)
+8. **WEAPON** Fotia's Fire launcher(4)
+9. **WEAPON** Flak gun(3)
+10. ->ENGINE-> Crystal oscillator(5)
+6
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+2
+You travel to the next planet.
+Xileon(enemy) Challenge: 5
+
+Your fuel has been modified by -5 fuel
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+3
+Battle Commencing!
+Your planetary bombardment worked. You won!
+Your fuel has been modified by 80 fuel
+You have found: AeroMaster XI hull(armor) 5
+Which item would you like to replace?
+1. ->ENGINE-> XF-16 power generator(5)
+2. ->ENGINE-> Power conduit(3)
+3. **WEAPON** Incinerator-class plasma railgun(3)
+4. ->ENGINE-> Power Surge Loop(5)
+5. ->ENGINE-> Beam focuser(1)
+6. **WEAPON** Drill-spike(2)
+7. ->ENGINE-> Power relay inverter(5)
+8. **WEAPON** Fotia's Fire launcher(4)
+9. **WEAPON** Flak gun(3)
+10. ->ENGINE-> Crystal oscillator(5)
+6
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+2
+You travel to the next planet.
+Ivion(gas) Challenge: 1
+
+Your fuel has been modified by -5 fuel
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+2
+You travel to the next planet.
+Baiwei(mining) Challenge: 5
+
+Your fuel has been modified by -5 fuel
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+3
+Battle Commencing!
+Your planetary bombardment worked. You won!
+Your fuel has been modified by 100 fuel
+You have found: Tri-Particle Beamer(weapon) 5
+Which item would you like to replace?
+1. ->ENGINE-> XF-16 power generator(5)
+2. ->ENGINE-> Power conduit(3)
+3. **WEAPON** Incinerator-class plasma railgun(3)
+4. ->ENGINE-> Power Surge Loop(5)
+5. ->ENGINE-> Beam focuser(1)
+6. |ARMOR| AeroMaster XI hull(5)
+7. ->ENGINE-> Power relay inverter(5)
+8. **WEAPON** Fotia's Fire launcher(4)
+9. **WEAPON** Flak gun(3)
+10. ->ENGINE-> Crystal oscillator(5)
+3
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+2
+You travel to the next planet.
+Vyke(mining) Challenge: 5
+
+Your fuel has been modified by -5 fuel
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+3
+Battle Commencing!
+Your planetary bombardment worked. You won!
+Your fuel has been modified by 40 fuel
+You have found: Tri-Particle Beamer(weapon) 5
+Which item would you like to replace?
+1. ->ENGINE-> XF-16 power generator(5)
+2. ->ENGINE-> Power conduit(3)
+3. **WEAPON** Tri-Particle Beamer(5)
+4. ->ENGINE-> Power Surge Loop(5)
+5. ->ENGINE-> Beam focuser(1)
+6. |ARMOR| AeroMaster XI hull(5)
+7. ->ENGINE-> Power relay inverter(5)
+8. **WEAPON** Fotia's Fire launcher(4)
+9. **WEAPON** Flak gun(3)
+10. ->ENGINE-> Crystal oscillator(5)
+3
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+2
+You travel to the next planet.
+Nesippe(enemy) Challenge: 1
+
+Your fuel has been modified by -5 fuel
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+2
+You travel to the next planet.
+Xovunides(enemy) Challenge: 3
+
+Your fuel has been modified by -5 fuel
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+2
+You travel to the next planet.
+Ahebos(mining) Challenge: 3
+
+Your fuel has been modified by -5 fuel
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+2
+You travel to the next planet.
+Olorix(enemy) Challenge: 2
+
+Your fuel has been modified by -5 fuel
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+2
+You travel to the next planet.
+Vekao(enemy) Challenge: 3
+
+Your fuel has been modified by -5 fuel
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+2
+You travel to the next planet.
+Vuruta(mining) Challenge: 1
+
+Your fuel has been modified by -5 fuel
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+2
+You travel to the next planet.
+Kegawa(mining) Challenge: 4
+
+Your fuel has been modified by -5 fuel
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+2
+You travel to the next planet.
+Cothorix(enemy) Challenge: 3
+
+Your fuel has been modified by -5 fuel
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+2
+You travel to the next planet.
+Chestrarth IV(mining) Challenge: 1
+
+Your fuel has been modified by -5 fuel
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+2
+You travel to the next planet.
+Nelore(enemy) Challenge: 5
+
+Your fuel has been modified by -5 fuel
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+3
+This planet has already been defeated.
+You should move to a new planet.
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+2
+You travel to the next planet.
+Ketera(gas) Challenge: 3
+
+Your fuel has been modified by -5 fuel
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+2
+You travel to the next planet.
+Manolla(enemy) Challenge: 2
+
+Your fuel has been modified by -5 fuel
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+2
+You travel to the next planet.
+Kuriuq(gas) Challenge: 2
+
+Your fuel has been modified by -5 fuel
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+2
+You travel to the next planet.
+Eturn(enemy) Challenge: 5
+
+Your fuel has been modified by -5 fuel
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+3
+Battle Commencing!
+Your planetary bombardment worked. You won!
+Your fuel has been modified by 80 fuel
+You have found: Crystal oscillator(engine) 5
+Which item would you like to replace?
+1. ->ENGINE-> XF-16 power generator(5)
+2. ->ENGINE-> Power conduit(3)
+3. **WEAPON** Tri-Particle Beamer(5)
+4. ->ENGINE-> Power Surge Loop(5)
+5. ->ENGINE-> Beam focuser(1)
+6. |ARMOR| AeroMaster XI hull(5)
+7. ->ENGINE-> Power relay inverter(5)
+8. **WEAPON** Fotia's Fire launcher(4)
+9. **WEAPON** Flak gun(3)
+10. ->ENGINE-> Crystal oscillator(5)
+8
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+2
+You travel to the next planet.
+Rion(gas) Challenge: 5
+
+Your fuel has been modified by -5 fuel
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+3
+Battle Commencing!
+Your planetary bombardment worked. You won!
+Your fuel has been modified by 20 fuel
+You have found: AeroMaster XI hull(armor) 5
+Which item would you like to replace?
+1. ->ENGINE-> XF-16 power generator(5)
+2. ->ENGINE-> Power conduit(3)
+3. **WEAPON** Tri-Particle Beamer(5)
+4. ->ENGINE-> Power Surge Loop(5)
+5. ->ENGINE-> Beam focuser(1)
+6. |ARMOR| AeroMaster XI hull(5)
+7. ->ENGINE-> Power relay inverter(5)
+8. ->ENGINE-> Crystal oscillator(5)
+9. **WEAPON** Flak gun(3)
+10. ->ENGINE-> Crystal oscillator(5)
+6
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+2
+You travel to the next planet.
+Udone IV(enemy) Challenge: 5
+
+Your fuel has been modified by -5 fuel
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+3
+Battle Commencing!
+Your planetary bombardment worked. You won!
+Your fuel has been modified by 60 fuel
+You have found: Microparticle Ion Accelerator(engine) 5
+Which item would you like to replace?
+1. ->ENGINE-> XF-16 power generator(5)
+2. ->ENGINE-> Power conduit(3)
+3. **WEAPON** Tri-Particle Beamer(5)
+4. ->ENGINE-> Power Surge Loop(5)
+5. ->ENGINE-> Beam focuser(1)
+6. |ARMOR| AeroMaster XI hull(5)
+7. ->ENGINE-> Power relay inverter(5)
+8. ->ENGINE-> Crystal oscillator(5)
+9. **WEAPON** Flak gun(3)
+10. ->ENGINE-> Crystal oscillator(5)
+2
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+5
+**************************
+Name: Red Dwarf
+Fuel: 693
+Attack: 8
+Defense: 5
+Engine: 31
+*************************
+1. ->ENGINE-> XF-16 power generator(5)
+2. ->ENGINE-> Microparticle Ion Accelerator(5)
+3. **WEAPON** Tri-Particle Beamer(5)
+4. ->ENGINE-> Power Surge Loop(5)
+5. ->ENGINE-> Beam focuser(1)
+6. |ARMOR| AeroMaster XI hull(5)
+7. ->ENGINE-> Power relay inverter(5)
+8. ->ENGINE-> Crystal oscillator(5)
+9. **WEAPON** Flak gun(3)
+10. ->ENGINE-> Crystal oscillator(5)
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+2
+You travel to the next planet.
+Tara(gas) Challenge: 3
+
+Your fuel has been modified by -5 fuel
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+2
+You travel to the next planet.
+Riagantu(enemy) Challenge: 2
+
+Your fuel has been modified by -5 fuel
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+2
+You travel to the next planet.
+Cinoth(enemy) Challenge: 2
+
+Your fuel has been modified by -5 fuel
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+2
+You travel to the next planet.
+Ziopagawa(gas) Challenge: 5
+
+Your fuel has been modified by -5 fuel
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+3
+Battle Commencing!
+Your planetary bombardment worked. You won!
+Your fuel has been modified by 100 fuel
+You have found: N21-3 power converter(engine) 5
+Which item would you like to replace?
+1. ->ENGINE-> XF-16 power generator(5)
+2. ->ENGINE-> Microparticle Ion Accelerator(5)
+3. **WEAPON** Tri-Particle Beamer(5)
+4. ->ENGINE-> Power Surge Loop(5)
+5. ->ENGINE-> Beam focuser(1)
+6. |ARMOR| AeroMaster XI hull(5)
+7. ->ENGINE-> Power relay inverter(5)
+8. ->ENGINE-> Crystal oscillator(5)
+9. **WEAPON** Flak gun(3)
+10. ->ENGINE-> Crystal oscillator(5)
+6
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+5
+**************************
+Name: Red Dwarf
+Fuel: 773
+Attack: 8
+Defense: 0
+Engine: 36
+*************************
+1. ->ENGINE-> XF-16 power generator(5)
+2. ->ENGINE-> Microparticle Ion Accelerator(5)
+3. **WEAPON** Tri-Particle Beamer(5)
+4. ->ENGINE-> Power Surge Loop(5)
+5. ->ENGINE-> Beam focuser(1)
+6. ->ENGINE-> N21-3 power converter(5)
+7. ->ENGINE-> Power relay inverter(5)
+8. ->ENGINE-> Crystal oscillator(5)
+9. **WEAPON** Flak gun(3)
+10. ->ENGINE-> Crystal oscillator(5)
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+2
+You travel to the next planet.
+Kuriuq(gas) Challenge: 2
+
+Your fuel has been modified by -5 fuel
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+2
+You travel to the next planet.
+Leron(enemy) Challenge: 4
+
+Your fuel has been modified by -5 fuel
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+2
+You travel to the next planet.
+Lianrorix(gas) Challenge: 5
+
+Your fuel has been modified by -5 fuel
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+3
+Battle Commencing!
+Your planetary bombardment worked. You won!
+Your fuel has been modified by 80 fuel
+You have found: Tri-Particle Beamer(weapon) 5
+Which item would you like to replace?
+1. ->ENGINE-> XF-16 power generator(5)
+2. ->ENGINE-> Microparticle Ion Accelerator(5)
+3. **WEAPON** Tri-Particle Beamer(5)
+4. ->ENGINE-> Power Surge Loop(5)
+5. ->ENGINE-> Beam focuser(1)
+6. ->ENGINE-> N21-3 power converter(5)
+7. ->ENGINE-> Power relay inverter(5)
+8. ->ENGINE-> Crystal oscillator(5)
+9. **WEAPON** Flak gun(3)
+10. ->ENGINE-> Crystal oscillator(5)
+3
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+2
+You travel to the next planet.
+Inorth(mining) Challenge: 1
+
+Your fuel has been modified by -5 fuel
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+2
+You travel to the next planet.
+Inorth(mining) Challenge: 1
+
+Your fuel has been modified by -5 fuel
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+2
+You travel to the next planet.
+Vuruta(mining) Challenge: 1
+
+Your fuel has been modified by -5 fuel
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+2
+You travel to the next planet.
+Rion(gas) Challenge: 5
+
+Your fuel has been modified by -5 fuel
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+3
+This planet has already been defeated.
+You should move to a new planet.
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+2
+You travel to the next planet.
+Drethuhiri 73W(enemy) Challenge: 1
+
+Your fuel has been modified by -5 fuel
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+2
+You travel to the next planet.
+Rion(gas) Challenge: 5
+
+Your fuel has been modified by -5 fuel
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+3
+This planet has already been defeated.
+You should move to a new planet.
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+2
+You travel to the next planet.
+Drethuhiri 73W(enemy) Challenge: 1
+
+Your fuel has been modified by -5 fuel
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+2
+You travel to the next planet.
+Ziopagawa(gas) Challenge: 5
+
+Your fuel has been modified by -5 fuel
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+3
+This planet has already been defeated.
+You should move to a new planet.
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+2
+You travel to the next planet.
+Ziopagawa(gas) Challenge: 5
+
+Your fuel has been modified by -5 fuel
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+3
+This planet has already been defeated.
+You should move to a new planet.
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+2
+You travel to the next planet.
+Baiwei(mining) Challenge: 5
+
+Your fuel has been modified by -5 fuel
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+3
+This planet has already been defeated.
+You should move to a new planet.
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+2
+You travel to the next planet.
+Zexade(mining) Challenge: 3
+
+Your fuel has been modified by -5 fuel
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+2
+You travel to the next planet.
+Manolla(enemy) Challenge: 2
+
+Your fuel has been modified by -5 fuel
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+2
+You travel to the next planet.
+Boxora(mining) Challenge: 3
+
+Your fuel has been modified by -5 fuel
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+2
+You travel to the next planet.
+Ikadus(mining) Challenge: 3
+
+Your fuel has been modified by -5 fuel
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+2
+You travel to the next planet.
+Ozuno(gas) Challenge: 3
+
+Your fuel has been modified by -5 fuel
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+2
+You travel to the next planet.
+Itania(mining) Challenge: 4
+
+Your fuel has been modified by -5 fuel
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+2
+You travel to the next planet.
+Esomia(mining) Challenge: 1
+
+Your fuel has been modified by -5 fuel
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+2
+You travel to the next planet.
+Doloulea(mining) Challenge: 4
+
+Your fuel has been modified by -5 fuel
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+2
+You travel to the next planet.
+Xovunides(enemy) Challenge: 3
+
+Your fuel has been modified by -5 fuel
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+2
+You travel to the next planet.
+Tara(gas) Challenge: 3
+
+Your fuel has been modified by -5 fuel
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+2
+You travel to the next planet.
+Izeon(mining) Challenge: 5
+
+Your fuel has been modified by -5 fuel
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+3
+Battle Commencing!
+Your planetary bombardment worked. You won!
+Your fuel has been modified by 80 fuel
+You have found: Power relay inverter(engine) 5
+Which item would you like to replace?
+1. ->ENGINE-> XF-16 power generator(5)
+2. ->ENGINE-> Microparticle Ion Accelerator(5)
+3. **WEAPON** Tri-Particle Beamer(5)
+4. ->ENGINE-> Power Surge Loop(5)
+5. ->ENGINE-> Beam focuser(1)
+6. ->ENGINE-> N21-3 power converter(5)
+7. ->ENGINE-> Power relay inverter(5)
+8. ->ENGINE-> Crystal oscillator(5)
+9. **WEAPON** Flak gun(3)
+10. ->ENGINE-> Crystal oscillator(5)
+9
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+5
+**************************
+Name: Red Dwarf
+Fuel: 813
+Attack: 5
+Defense: 0
+Engine: 41
+*************************
+1. ->ENGINE-> XF-16 power generator(5)
+2. ->ENGINE-> Microparticle Ion Accelerator(5)
+3. **WEAPON** Tri-Particle Beamer(5)
+4. ->ENGINE-> Power Surge Loop(5)
+5. ->ENGINE-> Beam focuser(1)
+6. ->ENGINE-> N21-3 power converter(5)
+7. ->ENGINE-> Power relay inverter(5)
+8. ->ENGINE-> Crystal oscillator(5)
+9. ->ENGINE-> Power relay inverter(5)
+10. ->ENGINE-> Crystal oscillator(5)
+What would you like to do?
+1. Examine Items
+2. Move
+3. Attack Planet
+4. Travel to Utopia
+5. Check Stats
+6. Quit
+4
+Your ship attempts to make it to Utopia.
+The engines just weren't powerful enough.
+You eventually ran out of food and fuel and died.
+Please play again!
+Good bye!

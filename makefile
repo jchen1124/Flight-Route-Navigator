@@ -1,6 +1,6 @@
 CXX = g++
 CXXFLAGS = -Wall
-IODIR = ../../proj3_IO/
+IODIR = ../../proj3_IO/ = 
 
 proj3: Route.o Airport.o Navigator.o proj3.cpp
 	$(CXX) $(CXXFLAGS) Route.o Airport.o Navigator.o proj3.cpp -o proj3

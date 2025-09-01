@@ -26,7 +26,7 @@ using namespace std;
 // Postconditions: Creates a new Route where m_head and m_tail                                                                                                                                                                                                                                                                                                                           
 //   point to nullptr and size = 0 
 Route::Route(){
-    m_name = "";
+    m_name = "Test";
     m_head = nullptr;
     m_tail = nullptr;
     m_size = 0;
